@@ -512,8 +512,151 @@ let questions = [
         options:[
             "Encrypting network traffic",
             "Changing IP addresses dynamically",
-            "Dividing an IP address into network and host",
-            "none of the above"
-            ]
+            "Dividing an IP address into network and host portions",
+            "Creating virtual LANs"
+        ]
+    },
+    {
+        numb: 48,
+        question: "What is a VLAN (Virtual Local Area Network)?",
+        answer: "A segmented network created within a larger network",
+        options:[
+            "A type of wireless router",
+            "A method of encrypting data packets",
+            "A segmented network created within a larger network",
+            "A protocol for remote access"
+        ]
+    },
+    {
+        numb: 49,
+        question: "What is the purpose of ICMP (Internet Control Message Protocol)?",
+        answer: "Managing error messages and operational information",
+        options:[
+            "Managing data encryption",
+            "Controlling access to websites",
+            "Managing error messages and operational information",
+            "Transmitting voice over IP networks"
+        ]
+    },
+    {
+        numb: 50,
+        question: "What is a proxy server?",
+        answer: "An intermediate server that acts as a gateway between a local network and the internet",
+        options:[
+            "A server used for hosting websites",
+            "A server that stores email messages",
+            "An intermediate server that acts as a gateway between a local network and the internet",
+            "A server that manages domain names"
+        ]
+    },
+    {
+        numb: 51,
+        question: "What is bandwidth in networking?",
+        answer: "The maximum data transfer rate of a network",
+        options:[
+            "The physical size of a network",
+            "The number of devices on a network",
+            "The type of network topology",
+            "The maximum data transfer rate of a network"
+        ]
+    },
+    {
+        numb: 52,
+        question: "What is the purpose of a router in networking?",
+        answer: "Routing data between different networks",
+        options:[
+            "Converting IP addresses to MAC addresses",
+            "Transmitting wireless signals",
+            "Filtering network traffic",
+            "Routing data between different networks"
+        ]
+    },
+    {
+        numb: 53,
+        question: "What is a DNS server?",
+        answer: "A server that translates domain names into IP addresses",
+        options:[
+            "A server for storing files",
+            "A server for sending emails",
+            "A server for managing network hardware",
+            "A server that translates domain names into IP addresses"
+        ]
+    },
+    {
+        numb: 54,
+        question: "Which protocol is used for remotely accessing servers and network devices?",
+        answer: "SSH (Secure Shell)",
+        options:[
+            "FTP (File Transfer Protocol)",
+            "HTTP (Hypertext Transfer Protocol)",
+            "SMTP (Simple Mail Transfer Protocol)",
+            "SSH (Secure Shell)"
+        ]
+    },
+    {
+        numb: 55,
+        question: "What is NAT (Network Address Translation) used for?",
+        answer: "Converting private IP addresses to public IP addresses",
+        options:[
+            "Encrypting network traffic",
+            "Routing between different network segments",
+            "Managing DNS records",
+            "Translating domain names"
+        ]
+    },
+    {
+        numb: 56,
+        question: "What does SSID stand for in wireless networking?",
+        answer: "Service Set Identifier",
+        options:[
+            "Secure System Identification",
+            "Shared Security Identifier",
+            "Service Set Identifier",
+            "System Status Indicator"
+        ]
+    },
+    {
+        numb: 57,
+        question: "What is the purpose of ARP (Address Resolution Protocol)?",
+        answer: "Resolving IP addresses to MAC addresses",
+        options:[
+            "Encrypting data packets",
+            "Routing network traffic",
+            "Assigning IP addresses",
+            "Resolving IP addresses to MAC addresses"
+        ]
+    },
+    {
+        numb: 58,
+        question: "What is a gateway in networking?",
+        answer: "A device that connects different networks",
+        options:[
+            "A device for blocking malicious websites",
+            "A device for managing DNS records",
+            "A device for securing wireless networks",
+            "A device that connects different networks"
+        ]
+    },
+    {
+        numb: 59,
+        question: "What is a MAN (Metropolitan Area Network)?",
+        answer: "A network that covers a city or large campus area",
+        options:[
+            "A network for connecting devices within a single room",
+            "A network for connecting devices within a building",
+            "A network for connecting devices within a city",
+            "A network for connecting devices worldwide"
+        ]
+    },
+    {
+        numb: 60,
+        question: "What is a DMZ (Demilitarized Zone) in networking?",
+        answer: "A segregated network zone that separates internal and external networks",
+        options:[
+            "A zone with high network traffic",
+            "A zone with restricted access",
+            "A segregated network zone that separates internal and external networks",
+            "A zone with enhanced security"
+        ]
     }
-    }
+];
