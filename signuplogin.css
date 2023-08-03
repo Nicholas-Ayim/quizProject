@@ -1,0 +1,109 @@
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    /*cloth21.webp cloth15.jpeg  cloth2.jpeg  cloth5.jpeg*/
+   margin-top: 3rem;
+   background-image:url("../../cloth21.webp");
+   object-fit:cover;
+   background-repeat:repeat-x;
+  /* background-size: cover; */
+   background-attachment:fixed;
+   transform: scale(0.9);
+}
+.login-word{ 
+    position: relative;
+    left:5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:0.5rem;
+    font-size: 30px;
+    font-style: bold;
+    /*color:rgba(140, 0, 255, 0.675);*/
+    color:rgba(0, 0, 0, 0.857);
+    /* color:#fff; */
+   
+}
+form{
+    position: relative;
+    left:15rem;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    width:fit-content;
+    height:fit-content;
+    margin: auto;
+    border-radius: 10px;
+}
+input{
+    padding:1rem;
+    border-radius: 5px;
+    width:250px;
+    border: 1px solid black;
+    border-top: 2px solid red;
+    border-left:2px solid cyan;
+}
+input:hover{
+    background:rgba(0, 153, 255, 0.653);
+}
+.form-name{
+    padding: 0.6rem;
+    
+}
+.asterish{
+    color:red;
+    font-style: bold;
+    font-size: 18px;
+}
+button.signupBtn{
+    width:100px;
+    padding:0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button.signupBtn:hover{
+    background: rgba(0, 153, 255, 0.653);
+}
+.account-state{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    gap:1rem;
+}
+input.check{
+    margin-left: 3rem;
+}
+.terms{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding:1rem;
+
+}
+/* style.css */
+.error-warning {
+    color: red;
+}
+.error-box{
+    background: grey;
+}
+
+@media (max-width:600px) {
+    .logout{
+        float: right;
+    }
+    
+}
