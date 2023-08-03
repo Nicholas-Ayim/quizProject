@@ -77,7 +77,7 @@ quit_quiz.onclick = () =>{
 
 //if next button is clicked
 next_btn.onclick = () =>{
-    prev_btn.style.display = "block";
+    // prev_btn.style.display = "block";
 
     if(que_count < questions.length - 1){
     que_count++;
@@ -88,7 +88,7 @@ next_btn.onclick = () =>{
     clearInterval(counterLine);
     startTimerLine(widthValue);
 }else{
-    prev_btn.style.display = "block";
+    // prev_btn.style.display = "block";
     console.log("question completed");
     showResultBox();
 
@@ -218,16 +218,16 @@ function queCounter(index) {
     bottom_ques_counter.innerHTML = totalQuesCountTag;
 }
 
-prev_btn.onclick = () =>{
-    console.log(questions.length-3);
-for(let i = 0; i < questions.length-1; i++)
-{
-if(i<= questions.length-3){
-    console.log("here");
-    i++;
-    console.log("the vale of i++ now",i);
-}else{
-    console.log("not");
-}
-}
-}
+// prev_btn.onclick = () =>{
+//     console.log(questions.length-3);
+// for(let i = 0; i < questions.length-1; i++)
+// {
+// if(i<= questions.length-3){
+//     console.log("here");
+//     i++;
+//     console.log("the vale of i++ now",i);
+// }else{
+//     console.log("not");
+// }
+// }
+// }
