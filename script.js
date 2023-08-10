@@ -222,16 +222,3 @@ function queCounter(index) {
     bottom_ques_counter.innerHTML = totalQuesCountTag;
 }
 
-// prev_btn.onclick = () =>{
-//     console.log(questions.length-3);
-// for(let i = 0; i < questions.length-1; i++)
-// {
-// if(i<= questions.length-3){
-//     console.log("here");
-//     i++;
-//     console.log("the vale of i++ now",i);
-// }else{
-//     console.log("not");
-// }
-// }
-// }
