@@ -69,6 +69,11 @@ restart_quiz.onclick = () =>{
 
 }
 
+var reloadPage = document.querySelector('.home')
+
+reloadPage.addEventListener('click',function(){
+    window.location.reload()
+})
 quit_quiz.onclick = () =>{
     window.location.reload();
 
@@ -77,7 +82,6 @@ quit_quiz.onclick = () =>{
 
 //if next button is clicked
 next_btn.onclick = () =>{
-    // prev_btn.style.display = "block";
 
     if(que_count < questions.length - 1){
     que_count++;
