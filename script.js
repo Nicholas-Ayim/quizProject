@@ -13,6 +13,11 @@ const  timeLine = quiz_box.querySelector("header .time_line");
 
 const option_list= document.querySelector(".option_list");
 
+const quitQuiz = document.querySelector('.quitQuiz')
+
+quitQuiz.addEventListener('click', function(){
+    window.location.reload();
+})
 
 //if start button clicked
 start_btn.onclick = () =>{
@@ -28,7 +33,6 @@ exit_btn.onclick=()=>{
 
 //if continue  button clicked
 continue_btn.onclick=()=>{
-    prev_btn.style.display="block";
     next_btn.style.display = "none";
     info_box.classList.remove("activeInfo"); // hide the info box
     quiz_box.classList.add("activeQuiz"); // show the quiz box
@@ -69,11 +73,7 @@ restart_quiz.onclick = () =>{
 
 }
 
-var reloadPage = document.querySelector('.home')
 
-reloadPage.addEventListener('click',function(){
-    window.location.reload()
-})
 quit_quiz.onclick = () =>{
     window.location.reload();
 

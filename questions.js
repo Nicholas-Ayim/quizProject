@@ -82,8 +82,8 @@ let questions = [
         answer: "Delay in data transmission",
         options:[
             "Data transfer speed",
-            "Signal strength",
             "Delay in data transmission",
+            "Signal strength",
             "Data packet size"
         ]
     },
@@ -94,8 +94,8 @@ let questions = [
         options:[
             "A protocol for sending emails",
             "A type of computer monitor",
-            "A unique hardware address for network devices",
-            "A wireless network standard"
+            "A wireless network standard",
+            "A unique hardware address for network devices"
         ]
     },
     {
@@ -126,8 +126,8 @@ let questions = [
         answer: "Dividing an IP address into network and host portions",
         options:[
             "Encrypting network traffic",
-            "Changing IP addresses dynamically",
             "Dividing an IP address into network and host portions",
+            "Changing IP addresses dynamically",
             "Creating virtual LANs"
         ]
     },
@@ -136,9 +136,9 @@ let questions = [
         question: "What is a VLAN (Virtual Local Area Network)?",
         answer: "A segmented network created within a larger network",
         options:[
+            "A segmented network created within a larger network",
             "A type of wireless router",
             "A method of encrypting data packets",
-            "A segmented network created within a larger network",
             "A protocol for remote access"
         ]
     },
@@ -236,8 +236,8 @@ let questions = [
         answer: "Delay in data transmission",
         options:[
             "Data transfer speed",
-            "Signal strength",
             "Delay in data transmission",
+            "Signal strength",
             "Data packet size"
         ]
     },
@@ -246,9 +246,9 @@ let questions = [
         question: "What is a MAC address?",
         answer: "A unique hardware address for network devices",
         options:[
+            "A unique hardware address for network devices",
             "A protocol for sending emails",
             "A type of computer monitor",
-            "A unique hardware address for network devices",
             "A wireless network standard"
         ]
     },
@@ -270,8 +270,9 @@ let questions = [
         options:[
             "Creating secure VPN connections",
             "Blocking malicious websites",
-            "Mapping domain names to IP addresses",
-            "Managing network hardware"
+            "Managing network hardware",
+            "Mapping domain names to IP addresses"
+
         ]
     },
     {
@@ -280,8 +281,8 @@ let questions = [
         answer: "Dividing an IP address into network and host portions",
         options:[
             "Encrypting network traffic",
-            "Changing IP addresses dynamically",
             "Dividing an IP address into network and host portions",
+            "Changing IP addresses dynamically",
             "Creating virtual LANs"
         ]
     },
@@ -301,9 +302,9 @@ let questions = [
         question: "What is the purpose of ICMP (Internet Control Message Protocol)?",
         answer: "Managing error messages and operational information",
         options:[
+            "Managing error messages and operational information",
             "Managing data encryption",
             "Controlling access to websites",
-            "Managing error messages and operational information",
             "Transmitting voice over IP networks"
         ]
     },
@@ -314,8 +315,8 @@ let questions = [
         options:[
             "A server used for hosting websites",
             "A server that stores email messages",
+            "A server that manages domain names",
             "An intermediate server that acts as a gateway between a local network and the internet",
-            "A server that manages domain names"
         ]
     },
     {
@@ -356,16 +357,16 @@ let questions = [
         question: "Which protocol is used for remotely accessing servers and network devices?",
         answer: "SSH (Secure Shell)",
         options:[
+            "SSH (Secure Shell)",
             "FTP (File Transfer Protocol)",
             "HTTP (Hypertext Transfer Protocol)",
-            "SMTP (Simple Mail Transfer Protocol)",
-            "SSH (Secure Shell)"
+            "SMTP (Simple Mail Transfer Protocol)"
         ]
     },
     {
         numb: 34,
         question: "What is NAT (Network Address Translation) used for?",
-        answer: "Converting private IP addresses to public IP addresses",
+        answer:"Translating domain names",
         options:[
             "Encrypting network traffic",
             "Routing between different network segments",
@@ -409,7 +410,7 @@ let questions = [
     {
         numb: 38,
         question: "What is a MAN (Metropolitan Area Network)?",
-        answer: "A network that covers a city or large campus area",
+        answer: "A network for connecting devices within a city",
         options:[
             "A network for connecting devices within a single room",
             "A network for connecting devices within a building",
@@ -466,9 +467,9 @@ let questions = [
         question: "What is latency in networking?",
         answer: "Delay in data transmission",
         options:[
+            "Delay in data transmission",
             "Data transfer speed",
             "Signal strength",
-            "Delay in data transmission",
             "Data packet size"
         ]
     },
@@ -478,8 +479,8 @@ let questions = [
         answer: "A unique hardware address for network devices",
         options:[
             "A protocol for sending emails",
-            "A type of computer monitor",
             "A unique hardware address for network devices",
+            "A type of computer monitor",
             "A wireless network standard"
         ]
     },
@@ -488,9 +489,9 @@ let questions = [
         question: "Which protocol is used for sending and receiving emails?",
         answer: "SMTP (Simple Mail Transfer Protocol)",
         options:[
+            "SMTP (Simple Mail Transfer Protocol)",
             "HTTP (Hypertext Transfer Protocol)",
             "FTP (File Transfer Protocol)",
-            "SMTP (Simple Mail Transfer Protocol)",
             "POP3 (Post Office Protocol 3)"
         ]
     },
@@ -522,8 +523,8 @@ let questions = [
         answer: "A segmented network created within a larger network",
         options:[
             "A type of wireless router",
-            "A method of encrypting data packets",
             "A segmented network created within a larger network",
+            "A method of encrypting data packets",
             "A protocol for remote access"
         ]
     },
@@ -533,8 +534,8 @@ let questions = [
         answer: "Managing error messages and operational information",
         options:[
             "Managing data encryption",
-            "Controlling access to websites",
             "Managing error messages and operational information",
+            "Controlling access to websites",
             "Transmitting voice over IP networks"
         ]
     },
@@ -576,10 +577,10 @@ let questions = [
         question: "What is a DNS server?",
         answer: "A server that translates domain names into IP addresses",
         options:[
+            "A server that translates domain names into IP addresses",
             "A server for storing files",
             "A server for sending emails",
-            "A server for managing network hardware",
-            "A server that translates domain names into IP addresses"
+            "A server for managing network hardware"
         ]
     },
     {
@@ -596,7 +597,7 @@ let questions = [
     {
         numb: 55,
         question: "What is NAT (Network Address Translation) used for?",
-        answer: "Converting private IP addresses to public IP addresses",
+        answer: "Translating domain names" ,
         options:[
             "Encrypting network traffic",
             "Routing between different network segments",
@@ -632,15 +633,15 @@ let questions = [
         answer: "A device that connects different networks",
         options:[
             "A device for blocking malicious websites",
+            "A device that connects different networks",
             "A device for managing DNS records",
-            "A device for securing wireless networks",
-            "A device that connects different networks"
+            "A device for securing wireless networks"
         ]
     },
     {
         numb: 59,
         question: "What is a MAN (Metropolitan Area Network)?",
-        answer: "A network that covers a city or large campus area",
+        answer: "A network that covers a city",
         options:[
             "A network for connecting devices within a single room",
             "A network for connecting devices within a building",
